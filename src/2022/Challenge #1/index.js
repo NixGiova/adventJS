@@ -1,4 +1,4 @@
-const wrapping = (gifts) => {
+function wrapping(gifts) {
   const wrappedGifts = gifts.map((gift) => {
     const firstlayer = `*${gift}*`
     const bottomToplayer = '*'.repeat(firstlayer.length)
