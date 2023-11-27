@@ -1,23 +1,14 @@
 function createCube(size) {
-  const upRight = '_\\'
-  const upLeft = '/\\'
-  const downLeft = '\\/'
-  const downRight = '_/'
-  let cube = ``
+  let head = []
+  let tail = []
   for (let i = 0; i < size; i++) {
-    const spaces = ' '.repeat(size - (i + 1))
-    const upLeftSpaces = upLeft.repeat(i + 1)
-    const upRightSpaces = upRight.repeat(size)
-    cube = cube + spaces + upLeftSpaces + upRightSpaces + '\n'
+    head.push(
+      ' '.repeat(size - (i + 1)) + '/\\'.repeat(i + 1) + '_\\'.repeat(size)
+    )
+    tail.push(' '.repeat(i) + '\\/'.repeat(size - i) + '_/'.repeat(size))
   }
 
-  for (let i = 0; i < size; i++) {
-    const spaces = ' '.repeat(i)
-    const downLeftSpaces = downLeft.repeat(size - i)
-    const downRightSpaces = downRight.repeat(size)
-    cube = cube + spaces + downLeftSpaces + downRightSpaces + '\n'
-  }
-  return cube.slice(0, cube.length - 1)
+  return [...head, ...tail].join('\n')
 }
 
 const cubeOfOne = createCube(1)
