@@ -46,7 +46,7 @@
 | 5   | _[Optimizing Santa's trips](./src/2022/Challenge%20%235/readme.md)_                 | **[_Solution_](./src/2022/Challenge%20%235/index.js)**  |
 | 6   | _[Creating xmas decorations](./src/2022/Challenge%20%236/readme.md)_                | **[_Solution_](./src/2022/Challenge%20%236/index.js)**  |
 | 7   | _[Doing gifts inventory](./src/2022/Challenge%20%237/readme.md)_                    | **[_Solution_](./src/2022/Challenge%20%237/index.js)**  |
-| 8   | _[](./src/2022/Challenge%20%238/readme.md)_                                         | **[_Solution_](./src/2022/Challenge%20%238/index.js)**  |
+| 8   | _[We need a mechanic!](./src/2022/Challenge%20%238/readme.md)_                      | **[_Solution_](./src/2022/Challenge%20%238/index.js)**  |
 | 9   | _[Crazy Xmas lights](./src/2022/Challenge%20%239/readme.md)_                        | **[_Solution_](./src/2022/Challenge%20%239/index.js)**  |
 | 10  | _[](./src/2022/Challenge%20%2310/readme.md)_                                        | **[_Solution_](./src/2022/Challenge%20%2310/index.js)** |
 | 11  | _[](./src/2022/Challenge%20%2311/readme.md)_                                        | **[_Solution_](./src/2022/Challenge%20%2311/index.js)** |
