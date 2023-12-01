@@ -1,8 +1,8 @@
 function findFirstRepeated(gifts) {
-  const seen = {}
+  const seen = new Set()
   for (const id of gifts) {
-    if (seen[id]) return id
-    seen[id] = true
+    if (seen.has(id)) return id
+    seen.add(id)
   }
   return -1
 }
