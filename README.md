@@ -73,7 +73,7 @@
 | --- | --------------------------------------------------------------- | ------------------------------------------------------- |
 | 1   | _[First gift repeated](./src/2023/Challenge%20%231/readme.md)_  | **[_Solution_](./src/2023/Challenge%20%231/index.js)**  |
 | 2   | _[We start the factory](./src/2023/Challenge%20%232/readme.md)_ | **[_Solution_](./src/2023/Challenge%20%232/index.js)**  |
-| 3   | _[](./src/2023/Challenge%20%233/readme.md)_                     | **[_Solution_](./src/2023/Challenge%20%233/index.js)**  |
+| 3   | _[The naughty elf](./src/2023/Challenge%20%233/readme.md)_      | **[_Solution_](./src/2023/Challenge%20%233/index.js)**  |
 | 4   | _[](./src/2023/Challenge%20%234/readme.md)_                     | **[_Solution_](./src/2023/Challenge%20%234/index.js)**  |
 | 5   | _[](./src/2023/Challenge%20%235/readme.md)_                     | **[_Solution_](./src/2023/Challenge%20%235/index.js)**  |
 | 6   | _[](./src/2023/Challenge%20%236/readme.md)_                     | **[_Solution_](./src/2023/Challenge%20%236/index.js)**  |
