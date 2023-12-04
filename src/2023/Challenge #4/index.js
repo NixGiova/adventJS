@@ -11,15 +11,24 @@ function decode(message) {
   return message
 }
 
-const a = decode('hola (odnum)')
-console.log(a) // hola mundo
+// const a = decode('hola (odnum)')
+// console.log(a) // hola mundo
 
-const b = decode('(olleh) (dlrow)!')
-console.log(b) // hello world!
+// const b = decode('(olleh) (dlrow)!')
+// console.log(b) // hello world!
 
-const c = decode('sa(u(cla)atn)s')
-console.log(c) // santaclaus
+// const c = decode('sa(u(cla)atn)s')
+// console.log(c) // santaclaus
 
 // Step by step:
 // 1. Reverse the nested -> sa(ualcatn)s
 // 2. Reverse the remaining one -> santaclaus
+
+function decode1(message) {
+  while (/\([^()]+\)/.test(message)) {
+    message = message.replace(/\(([^()]+)\)/g, (_, match) =>
+      match.split('').reverse().join('')
+    )
+  }
+  return message
+}
