@@ -1,4 +1,4 @@
-# Challenge #3: The naughty elf
+# Challenge #3: 😏 The naughty elf
 
 In Santa's workshop, **a mischievous elf** has been playing around with the gift production line, adding or removing an unplanned step.
 

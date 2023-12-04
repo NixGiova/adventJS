@@ -1,4 +1,4 @@
-# Challenge #2: We start the factory
+# Challenge #2: 🏭 We start the factory
 
 In Santa's workshop, the elves have a **gift list** they wish to make and a limited set of materials.
 
