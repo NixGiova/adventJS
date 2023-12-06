@@ -11,7 +11,7 @@ function findNaughtyStep(original, modified) {
 function findNaughtyStepOpt(original, modified) {
   if (original.length === modified.length) return ''
   const iterator = modified.length > original.length ? modified : original
-  for (let index = 0; index < iterator.length; index++) {
+  for (const index in [...iterator]) {
     if (original[index] !== modified[index]) {
       return iterator[index]
     }
