@@ -25,10 +25,11 @@ function decode(message) {
 // 2. Reverse the remaining one -> santaclaus
 
 function decode1(message) {
-  while (/\([^()]+\)/.test(message)) {
-    message = message.replace(/\(([^()]+)\)/g, (_, match) =>
-      match.split('').reverse().join('')
-    )
+  while (message.includes('(')) {
+    const match = message.match(/\(([^()]+)\)/)
+    const reversed = match[0].slice(1, -1).split('').reverse().join('')
+    message = message.replace(match[0], reversed)
+    console.log(message)
   }
   return message
 }
