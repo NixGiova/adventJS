@@ -76,7 +76,7 @@
 | 3   | _[😏 The naughty elf](./src/2023/Challenge%20%233/readme.md)_             | **[_Solution_](./src/2023/Challenge%20%233/index.js)**  |
 | 4   | _[😵‍💫 Turn the parentheses around](./src/2023/Challenge%20%234/readme.md)_ | **[_Solution_](./src/2023/Challenge%20%234/index.js)**  |
 | 5   | _[🛷 Santa'a CyberTruck](./src/2023/Challenge%20%235/readme.md)_          | **[_Solution_](./src/2023/Challenge%20%235/index.js)**  |
-| 6   | _[](./src/2023/Challenge%20%236/readme.md)_                               | **[_Solution_](./src/2023/Challenge%20%236/index.js)**  |
+| 6   | _[🦌 The reindeer on trial](./src/2023/Challenge%20%236/readme.md)_       | **[_Solution_](./src/2023/Challenge%20%236/index.js)**  |
 | 7   | _[](./src/2023/Challenge%20%237/readme.md)_                               | **[_Solution_](./src/2023/Challenge%20%237/index.js)**  |
 | 8   | _[](./src/2023/Challenge%20%238/readme.md)_                               | **[_Solution_](./src/2023/Challenge%20%238/index.js)**  |
 | 9   | _[](./src/2023/Challenge%20%239/readme.md)_                               | **[_Solution_](./src/2023/Challenge%20%239/index.js)**  |
