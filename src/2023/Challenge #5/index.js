@@ -8,6 +8,7 @@ function cyberReindeer(road, time) {
       road = road.replaceAll('|', '*')
     }
     const sledPos = roadTmp.indexOf('S')
+    console.log(sledPos)
     if (roadTmp[sledPos + 1] !== '|') {
       roadTmp =
         road.slice(0, sledPos + 1) +
@@ -37,3 +38,22 @@ console.log(cyberReindeer(road, time))
   9'...*...S..', // passes through the open barrier
 ]
 */
+
+function cyberReindeer1(road, time) {
+  let roadsArray = [road]
+  let roadStep = '.'
+  for (let step = 1; step < time; step++) {
+    if (step === 5) road = road.replaceAll('|', '*')
+    const sledPos = road.indexOf('S')
+    if (road[sledPos + 1] !== '|') {
+      const iniRoad = road.slice(0, sledPos + 1).replace('S', roadStep) + 'S'
+      const endRoad = road.slice(sledPos + 2, road.length)
+      roadStep = road[sledPos + 1]
+      road = iniRoad + endRoad
+    }
+    roadsArray.push(road)
+  }
+  return roadsArray
+}
+
+console.log(cyberReindeer1(road, time))
