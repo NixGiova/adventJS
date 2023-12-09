@@ -32,8 +32,3 @@ console.log(result1)
 
   11b: 11 gifts type 'b' would be packed in 1 box and 1 gift would be left, resulting in 1 loose box {b} and a bag with 1 gift (b)
   */
-
-//insert de chat in middle of the character string
-const char = '[]'
-const chat = 'chat'
-const result = char.slice(0, 1) + chat + char.slice(1)
