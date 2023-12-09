@@ -78,7 +78,7 @@
 | 5   | _[🛷 Santa'a CyberTruck](./src/2023/Challenge%20%235/readme.md)_          | **[_Solution_](./src/2023/Challenge%20%235/index.js)**  |
 | 6   | _[🦌 The reindeer on trial](./src/2023/Challenge%20%236/readme.md)_       | **[_Solution_](./src/2023/Challenge%20%236/index.js)**  |
 | 7   | _[📦 The 3D boxes](./src/2023/Challenge%20%237/readme.md)_                | **[_Solution_](./src/2023/Challenge%20%237/index.js)**  |
-| 8   | _[](./src/2023/Challenge%20%238/readme.md)_                               | **[_Solution_](./src/2023/Challenge%20%238/index.js)**  |
+| 8   | _[🏬 Sorting the warehouse](./src/2023/Challenge%20%238/readme.md)_       | **[_Solution_](./src/2023/Challenge%20%238/index.js)**  |
 | 9   | _[](./src/2023/Challenge%20%239/readme.md)_                               | **[_Solution_](./src/2023/Challenge%20%239/index.js)**  |
 | 10  | _[](./src/2023/Challenge%20%2310/readme.md)_                              | **[_Solution_](./src/2023/Challenge%20%2310/index.js)** |
 | 11  | _[](./src/2023/Challenge%20%2311/readme.md)_                              | **[_Solution_](./src/2023/Challenge%20%2311/index.js)** |
