@@ -81,7 +81,7 @@
 | 8   | _[🏬 Sorting the warehouse](./src/2023/Challenge%20%238/readme.md)_           | **[_Solution_](./src/2023/Challenge%20%238/index.js)**  |
 | 9   | _[🚦 Switch the lights](./src/2023/Challenge%20%239/readme.md)_               | **[_Solution_](./src/2023/Challenge%20%239/index.js)**  |
 | 10  | _[🎄 Create your own Christmas tree](./src/2023/Challenge%20%2310/readme.md)_ | **[_Solution_](./src/2023/Challenge%20%2310/index.js)** |
-| 11  | _[](./src/2023/Challenge%20%2311/readme.md)_                                  | **[_Solution_](./src/2023/Challenge%20%2311/index.js)** |
+| 11  | _[📖 The studious elves](./src/2023/Challenge%20%2311/readme.md)_             | **[_Solution_](./src/2023/Challenge%20%2311/index.js)** |
 | 12  | _[](./src/2023/Challenge%20%2312/readme.md)_                                  | **[_Solution_](./src/2023/Challenge%20%2312/index.js)** |
 | 13  | _[](./src/2023/Challenge%20%2313/readme.md)_                                  | **[_Solution_](./src/2023/Challenge%20%2313/index.js)** |
 | 14  | _[](./src/2023/Challenge%20%2314/readme.md)_                                  | **[_Solution_](./src/2023/Challenge%20%2314/index.js)** |
