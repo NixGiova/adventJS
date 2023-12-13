@@ -1,6 +1,6 @@
 function drawGift(size, symbol) {
   if (size === 1) return '#\n'
-  const head = []
+  const head = [' '.repeat(size - 1) + '#'.repeat(size)]
   const tail = []
   for (let iterator = 2; iterator < size; iterator++) {
     head.push(
@@ -21,16 +21,9 @@ function drawGift(size, symbol) {
   }
 
   const middle = ['#'.repeat(size) + symbol.repeat(size - 2) + '#']
+  tail.push('#'.repeat(size))
 
-  return (
-    [
-      ' '.repeat(size - 1) + '#'.repeat(size),
-      ...head,
-      ...middle,
-      ...tail,
-      '#'.repeat(size)
-    ].join('\n') + '\n'
-  )
+  return [...head, ...middle, ...tail].join('\n') + '\n'
 }
 
 console.log(drawGift(4, '+'))
