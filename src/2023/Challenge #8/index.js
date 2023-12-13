@@ -32,3 +32,22 @@ console.log(result1)
 
   11b: 11 gifts type 'b' would be packed in 1 box and 1 gift would be left, resulting in 1 loose box {b} and a bag with 1 gift (b)
   */
+
+function organizeGifts1(gifts) {
+  const matches = gifts.match(/(\d*\w)/g)
+  if (!matches) return ''
+  const packages = matches.reduce((acc, curr) => {
+    let quantity = parseInt(curr.match(/\d+/g)) || 0
+    const gift = curr.at(-1)
+    const pallets = Math.floor(quantity / 50)
+    const boxes = Math.floor((quantity - pallets * 50) / 10)
+    const bags = Math.floor(quantity % 10)
+    if (pallets > 0) acc += `[${gift}]`.repeat(pallets)
+    if (boxes > 0) acc += `{${gift}}`.repeat(boxes)
+    if (bags > 0) acc += `(${gift.repeat(bags)})`
+    return acc
+  }, '')
+  return packages
+}
+
+console.log(organizeGifts1('76a11b'))
