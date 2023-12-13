@@ -1,14 +1,16 @@
 function getIndexsForPalindrome(word) {
   if (word.split('').reverse().join('') === word) return []
-  for (let index = 0; index < word.length - 1; index++) {
-    for (let j = index + 1; j < word.length; j++) {
+  for (let start = 0; start < word.length - 1; start++) {
+    for (let end = start + 1; end < word.length; end++) {
       const lettersTmp = [...word]
-      lettersTmp.splice(index, 1, word[j])
-      lettersTmp.splice(j, 1, word[index])
+      ;[lettersTmp[start], lettersTmp[end]] = [
+        lettersTmp[end],
+        lettersTmp[start]
+      ]
       const ori = lettersTmp.join('')
       const rev = lettersTmp.reverse().join('')
       if (ori === rev) {
-        return [index, j]
+        return [start, end]
       }
     }
   }
