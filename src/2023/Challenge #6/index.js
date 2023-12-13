@@ -24,3 +24,18 @@ console.log(result2) // -> 2
 const movements3 = '>***>'
 const result3 = maxDistance(movements3)
 console.log(result3) // -> 5
+
+function maxDistance1(movements) {
+  const distance = movements.split('').reduce(
+    (acc, cur) => {
+      if (cur === '>') acc.distance++
+      if (cur === '<') acc.distance--
+      if (cur === '*') acc.starts++
+      return acc
+    },
+    { distance: 0, starts: 0 }
+  )
+  return Math.abs(distance.distance) + distance.starts
+}
+
+console.log(maxDistance1('>>*<'))
