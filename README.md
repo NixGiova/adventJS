@@ -87,7 +87,7 @@
 | 14  | _[# Challenge #14: 🚨 Avoid the alarm](./src/2023/Challenge%20%2314/readme.md)_ | **[_Solution_](./src/2023/Challenge%20%2314/index.js)** |
 | 15  | _[↔️ Autonomous robot](./src/2023/Challenge%20%2315/readme.md)_                 | **[_Solution_](./src/2023/Challenge%20%2315/index.js)** |
 | 16  | _[❌ Friday deployment](./src/2023/Challenge%20%2316/readme.md)_                | **[_Solution_](./src/2023/Challenge%20%2316/index.js)** |
-| 17  | _[](./src/2023/Challenge%20%2317/readme.md)_                                    | **[_Solution_](./src/2023/Challenge%20%2317/index.js)** |
+| 17  | _[🛷 Optimizing the rental](./src/2023/Challenge%20%2317/readme.md)_            | **[_Solution_](./src/2023/Challenge%20%2317/index.js)** |
 | 18  | _[](./src/2023/Challenge%20%2318/readme.md)_                                    | **[_Solution_](./src/2023/Challenge%20%2318/index.js)** |
 | 19  | _[](./src/2023/Challenge%20%2319/readme.md)_                                    | **[_Solution_](./src/2023/Challenge%20%2319/index.js)** |
 | 20  | _[](./src/2023/Challenge%20%2320/readme.md)_                                    | **[_Solution_](./src/2023/Challenge%20%2320/index.js)** |
