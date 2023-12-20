@@ -89,7 +89,7 @@
 | 16  | _[❌ Friday deployment](./src/2023/Challenge%20%2316/readme.md)_                | **[_Solution_](./src/2023/Challenge%20%2316/index.js)** |
 | 17  | _[🛷 Optimizing the rental](./src/2023/Challenge%20%2317/readme.md)_            | **[_Solution_](./src/2023/Challenge%20%2317/index.js)** |
 | 18  | _[🔢 The digital clock](./src/2023/Challenge%20%2318/readme.md)_                | **[_Solution_](./src/2023/Challenge%20%2318/index.js)** |
-| 19  | _[](./src/2023/Challenge%20%2319/readme.md)_                                    | **[_Solution_](./src/2023/Challenge%20%2319/index.js)** |
+| 19  | _[💣 Face the sabotage](./src/2023/Challenge%20%2319/readme.md)_                | **[_Solution_](./src/2023/Challenge%20%2319/index.js)** |
 | 20  | _[](./src/2023/Challenge%20%2320/readme.md)_                                    | **[_Solution_](./src/2023/Challenge%20%2320/index.js)** |
 | 21  | _[](./src/2023/Challenge%20%2321/readme.md)_                                    | **[_Solution_](./src/2023/Challenge%20%2321/index.js)** |
 | 22  | _[](./src/2023/Challenge%20%2322/readme.md)_                                    | **[_Solution_](./src/2023/Challenge%20%2322/index.js)** |
