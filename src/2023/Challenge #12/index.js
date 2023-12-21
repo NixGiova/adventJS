@@ -27,3 +27,71 @@ function checkIsValidCopy(original, copy) {
   }
   return true
 }
+
+function checkIsValidCopy(original, copy) {
+  const SIMBOLOS = '#+:. '
+  const filter_obj = {
+    a: SIMBOLOS,
+    b: SIMBOLOS,
+    c: SIMBOLOS,
+    d: SIMBOLOS,
+    e: SIMBOLOS,
+    f: SIMBOLOS,
+    g: SIMBOLOS,
+    h: SIMBOLOS,
+    i: SIMBOLOS,
+    j: SIMBOLOS,
+    k: SIMBOLOS,
+    l: SIMBOLOS,
+    m: SIMBOLOS,
+    n: SIMBOLOS,
+    o: SIMBOLOS,
+    p: SIMBOLOS,
+    q: SIMBOLOS,
+    r: SIMBOLOS,
+    s: SIMBOLOS,
+    t: SIMBOLOS,
+    u: SIMBOLOS,
+    v: SIMBOLOS,
+    w: SIMBOLOS,
+    x: SIMBOLOS,
+    y: SIMBOLOS,
+    z: SIMBOLOS,
+    A: 'a' + SIMBOLOS,
+    B: 'b' + SIMBOLOS,
+    C: 'c' + SIMBOLOS,
+    D: 'd' + SIMBOLOS,
+    E: 'e' + SIMBOLOS,
+    F: 'f' + SIMBOLOS,
+    G: 'g' + SIMBOLOS,
+    H: 'h' + SIMBOLOS,
+    I: 'i' + SIMBOLOS,
+    J: 'j' + SIMBOLOS,
+    K: 'k' + SIMBOLOS,
+    L: 'l' + SIMBOLOS,
+    M: 'm' + SIMBOLOS,
+    N: 'n' + SIMBOLOS,
+    O: 'o' + SIMBOLOS,
+    P: 'p' + SIMBOLOS,
+    Q: 'q' + SIMBOLOS,
+    R: 'r' + SIMBOLOS,
+    S: 's' + SIMBOLOS,
+    T: 't' + SIMBOLOS,
+    U: 'u' + SIMBOLOS,
+    V: 'v' + SIMBOLOS,
+    W: 'w' + SIMBOLOS,
+    X: 'x' + SIMBOLOS,
+    Y: 'y' + SIMBOLOS,
+    Z: 'z' + SIMBOLOS,
+    '#': '+:. ',
+    '+': ':. ',
+    ':': '. ',
+    '.': ' '
+  }
+
+  return original.split('').every((letra_actual, i) => {
+    const copia_actual = copy.at(i++)
+    let filtro = letra_actual + filter_obj[letra_actual]
+    return filtro.includes(copia_actual)
+  })
+}
