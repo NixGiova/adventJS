@@ -92,7 +92,7 @@
 | 19  | _[💣 Face the sabotage](./src/2023/Challenge%20%2319/readme.md)_              | **[_Solution_](./src/2023/Challenge%20%2319/index.js)** |
 | 20  | _[🏋️‍♂️ Distribute the weight](./src/2023/Challenge%20%2320/readme.md)_          | **[_Solution_](./src/2023/Challenge%20%2320/index.js)** |
 | 21  | _[🪐 Binary message](./src/2023/Challenge%20%2321/readme.md)_                 | **[_Solution_](./src/2023/Challenge%20%2321/index.js)** |
-| 22  | _[](./src/2023/Challenge%20%2322/readme.md)_                                  | **[_Solution_](./src/2023/Challenge%20%2322/index.js)** |
+| 22  | _[🚂 Programming language](./src/2023/Challenge%20%2322/readme.md)_           | **[_Solution_](./src/2023/Challenge%20%2322/index.js)** |
 | 23  | _[](./src/2023/Challenge%20%2323/readme.md)_                                  | **[_Solution_](./src/2023/Challenge%20%2323/index.js)** |
 | 24  | _[](./src/2023/Challenge%20%2324/readme.md)_                                  | **[_Solution_](./src/2023/Challenge%20%2324/index.js)** |
 
