@@ -2,7 +2,7 @@
 
 ## Here are my solutions to https://adventjs.dev/
 
-<details>
+<details name="tables">
 <summary>2021</summary>
 
 | #   | Challenge                                    | Source                                                  |
@@ -34,7 +34,7 @@
 
 </details>
 
-<details>
+<details name="tables">
 <summary>2022</summary>
 
 | #   | Challenge                                                                           | Source                                                  |
@@ -66,7 +66,7 @@
 
 </details>
 
-<details>
+<details name="tables" open>
 <summary>2023</summary>
 
 | #   | Challenge                                                                     | Source                                                  |
