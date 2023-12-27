@@ -95,5 +95,6 @@
 | 22  | _[🚂 Programming language](./src/2023/Challenge%20%2322/readme.md)_           | **[_Solution_](./src/2023/Challenge%20%2322/index.js)** |
 | 23  | _[🍽️ Christmas dinner](./src/2023/Challenge%20%2323/readme.md)_               | **[_Solution_](./src/2023/Challenge%20%2323/index.js)** |
 | 24  | _[🪜 Jump on the stairs](./src/2023/Challenge%20%2324/readme.md)_             | **[_Solution_](./src/2023/Challenge%20%2324/index.js)** |
+| 25  | _[🗺️ Calculating distances](./src/2023/Challenge%20%2325/readme.md)_          | **[_Solution_](./src/2023/Challenge%20%2325/index.js)** |
 
 </details>
